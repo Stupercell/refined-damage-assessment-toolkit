@@ -1,4 +1,14 @@
 {
+  "homepage": "https://stupercell.github.io/refined-damage-assessment-toolkit",
+
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build"
+  }
+}
+{
   "name": "tanstack_start_ts",
   "private": true,
   "sideEffects": false,
